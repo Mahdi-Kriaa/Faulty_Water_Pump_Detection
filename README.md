@@ -97,9 +97,11 @@ group_state: Water pump state
 
 We will employ various data preprocessing techniques to handle missing values and categorical variables. We will explore different machine learning models, including random forests and gradient boosting, to predict the operational status of the pumps. Model performance will be evaluated based on accuracy, precision, recall, and F1 score.
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 
-During the exploratory phase the following plots were visualised:
+### Explanatory Visuals
+
+The exploratory visuals include the following plots:
 
     - a boxplot and histogram was visualized for each numeric column.
     - an histogram was visualized for each categorical column.
@@ -111,3 +113,16 @@ During the exploratory phase the following plots were visualised:
 
 This histogram shows that the "fonctional needs repair" state is the minority one and the "non functional" state represente a significante part of the dataset.
 
+### Explanatory Visuals
+
+<p align = "center"> 
+  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_prediction/blob/main/Images/pumps_sates_over_45.png">
+</p>
+
+The magority of pumps states is non functional when the pump is oprating over 45 years so there is high risk of failure over this operating period.
+
+<p align = "center"> 
+  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_prediction/blob/main/Images/pumps_sates_vs_management.png">
+</p>
+
+The majority of non functional states are vwc managed. So it's most likely that there is a problem with this type of management.
