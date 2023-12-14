@@ -98,3 +98,15 @@ group_state: Water pump state
 We will employ various data preprocessing techniques to handle missing values and categorical variables. We will explore different machine learning models, including random forests and gradient boosting, to predict the operational status of the pumps. Model performance will be evaluated based on accuracy, precision, recall, and F1 score.
 
 ### Exploratory Data Analysis
+
+During the exploratory data analysis:
+
+    - a boxplot and histogram was visualized for each numeric column.
+    - an histogram was visualized for each categorical column. 
+    
+<p align = "center"> 
+  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/status_group_histogram.png">
+</p>
+
+This histogram shows that the "fonctional needs repair" state is the minority one and the "non functional" state represente a significante part of the dataset.
+
