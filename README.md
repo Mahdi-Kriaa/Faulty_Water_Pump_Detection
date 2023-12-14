@@ -99,10 +99,11 @@ We will employ various data preprocessing techniques to handle missing values an
 
 ### Exploratory Data Analysis
 
-During the exploratory data analysis:
+During the exploratory phase the following plots were visualised:
 
     - a boxplot and histogram was visualized for each numeric column.
-    - an histogram was visualized for each categorical column. 
+    - an histogram was visualized for each categorical column.
+    - a contingency matrix for some categorical columns
     
 <p align = "center"> 
   <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/status_group_histogram.png">
