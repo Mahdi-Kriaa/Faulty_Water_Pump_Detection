@@ -15,8 +15,10 @@ https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 For this dataset, there were 59400 rows and 41 columns.
 
 ## Data Dictionary
-amount_tsh: Total static head (amount water available to waterpoint)\n
+amount_tsh: Total static head (amount water available to waterpoint)
+\
 date_recorded: The date the row was entered
+\
 funder: Who funded the well
 gps_height: Altitude of the well
 installer: Organization that installed the well
