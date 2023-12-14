@@ -106,7 +106,7 @@ During the exploratory phase the following plots were visualised:
     - a contingency matrix for some categorical columns
     
 <p align = "center"> 
-  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/status_group_histogram.png">
+  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/pumps_states_histogram.png">
 </p>
 
 This histogram shows that the "fonctional needs repair" state is the minority one and the "non functional" state represente a significante part of the dataset.
