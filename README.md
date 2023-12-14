@@ -1,4 +1,4 @@
-# Tanzania Water Pumps States Prediction
+# Tanzania Faulty Water Pumps Prediction
 
 ## Pumps States Analysis and Modelisation 
 
