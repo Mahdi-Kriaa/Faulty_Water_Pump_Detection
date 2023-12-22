@@ -95,7 +95,7 @@ group_state: Water pump state
 
 ## Methodologie
 
-We will employ various data preprocessing techniques to handle missing values and categorical variables. We will explore different machine learning models, including random forests and gradient boosting, to predict the operational status of the pumps. Model performance will be evaluated based on accuracy, precision, recall, and F1 score.
+We will explore the dataset and employ various data preprocessing techniques to handle missing values and categorical variables. We will try different machine learning models, including random forests and gradient boosting, to predict the operational status of the pumps. Model performance will be evaluated based on accuracy, precision, recall, and F1 score.
 
 ## Exploratory Data Analysis
 
