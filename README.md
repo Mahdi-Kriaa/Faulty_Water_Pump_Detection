@@ -152,3 +152,8 @@ The following are the "non functional" class f1 scores for each model with defau
     - Stacking:
     
 The Final Model Chosen was a `Tuned Decision Tree Regressor Model` with the max_depth tuned to 5.
+
+## Recommendations
+
+- To increase the sales of the store, the saler must primarily choose the optimal store's features.
+- The tuned decision tree model is better than the linear regression model but, considering the previous regression metrics from how the model performed, using it to make predictions about sales of a product in a specific store would not be a very reliable. in fact the error presented by the RMSE score cannot be ignored.
