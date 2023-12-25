@@ -126,3 +126,29 @@ The magority of pumps states is non functional when the pump is oprating over 45
 </p>
 
 The majority of non functional states are vwc managed. So it's most likely that there is a problem with this type of management.
+
+## Machine Learning 
+
+### Machine Learning Models
+Models used in this project are the following :
+    
+    - Desicision Tree
+    - Random Forest
+    - AdaBoost
+    - XGBoost
+    - Stacking
+    
+We note that neural netwoks models were not preferred as we are dealing with structred data.
+
+### Models Evaluation & Results
+
+As the non-functional state is the more critical one, we chose the f1 score for this class as an evaluation metric. this score is choosen to assess precision (we must avoid false positives because it will generate an unnecessary maintenance costs) and recall (we want to predict all states of pump failure).
+The following are the "non functional" class f1 scores for each model with default tuning, for the testing set:
+
+    - Desicision Tree: 
+    - Random Forest: 
+    - AdaBoost: 
+    - XGBoost: 
+    - Stacking: 
+
+- The Final Model Chosen was a `Tuned Decision Tree Regressor Model` with the max_depth tuned to 5.
