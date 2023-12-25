@@ -149,6 +149,6 @@ The following are the "non functional" class f1 scores for each model with defau
     - Random Forest: 
     - AdaBoost: 
     - XGBoost: 
-    - Stacking: 
-
-- The Final Model Chosen was a `Tuned Decision Tree Regressor Model` with the max_depth tuned to 5.
+    - Stacking:
+    
+The Final Model Chosen was a `Tuned Decision Tree Regressor Model` with the max_depth tuned to 5.
