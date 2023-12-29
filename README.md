@@ -131,7 +131,8 @@ The majority of non functional states are vwc managed. So it's most likely that 
 
 ### Machine Learning Models
 Models used in this project are the following :
-    
+
+    - K Nearest Neighbors
     - Desicision Tree
     - Random Forest
     - AdaBoost
@@ -145,15 +146,16 @@ We note that neural netwoks models were not preferred as we are dealing with str
 As the non-functional state is the more critical one, we chose the f1 score for this class as an evaluation metric. this score is choosen to assess precision (we must avoid false positives because it will generate an unnecessary maintenance costs) and recall (we want to predict all states of pump failure).
 The following are the "non functional" class f1 scores for each model with default tuning, for the testing set:
 
-    - Desicision Tree: 
-    - Random Forest: 
-    - AdaBoost: 
-    - XGBoost: 
-    - Stacking:
+    - K Nearest Neighbors: 0.73 
+    - Desicision Tree: 0.72
+    - Random Forest: 0.77
+    - AdaBoost: 0.62
+    - XGBoost: 0.74
+    - Stacking: 0.75
     
-The Final Model Chosen was a `Tuned Decision Tree Regressor Model` with the max_depth tuned to 5.
+The Final model chosen was a tuned XGBoost classifier with a precision, recall and f1 scores on testing set equal to 0.80, 0.75 and 0.77 respectively. Althought this model has the same score as the default tuned random forest classifier, it has a better score by cross validation meaning it is more generalized model
 
 ## Recommendations
 
-- To increase the sales of the store, the saler must primarily choose the optimal store's features.
-- The tuned decision tree model is better than the linear regression model but, considering the previous regression metrics from how the model performed, using it to make predictions about sales of a product in a specific store would not be a very reliable. in fact the error presented by the RMSE score cannot be ignored.
+- When the type of the water pump is "other" then the risk of failure is high. so this type must be dealt with 
+- The model chosen have a good performance on detecting states of non functinality, but it is weak face to states where the water pump is functional but need repair so using it to detect these states is not reliable.
