@@ -1,4 +1,4 @@
-# Tanzania Faulty Water Pumps Prediction
+# Faulty Water Pumps Prediction
 
 ## Project Description 
 
