@@ -10,7 +10,7 @@ The data for this project comes from Kaggle and it is originally comes from the 
 Link to dataset : https://www.kaggle.com/datasets/sumeetsawant/pump-it-up-challenge-driven-data?select=training_Set_values.csv
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
-This dataset contain 59400 raws and 41 columns including the target variable.
+This dataset contain 59400 rows and 41 columns including the target variable.
 
 ## Data Dictionary
 amount_tsh: Total static head (amount water available to waterpoint)
