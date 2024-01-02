@@ -157,5 +157,5 @@ The Final model chosen was a tuned XGBoost classifier with a precision, recall a
 
 ## Recommendations
 
-- When the type of the water pump is "other" then the risk of failure is high. so this type must be dealt with 
+- When the type of the water pump is "other" then the risk of failure is high. so this type must be dealt with. 
 - The model has a good performance on detecting states of non functinality, but it is weak face to states where the water pump is functional but need repair so using it to detect these states is not reliable.
