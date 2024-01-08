@@ -119,7 +119,7 @@ This histogram shows that the "fonctional needs repair" state is the minority on
   <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/pumps_sates_over_45.png">
 </p>
 
-The magority of pumps states is non functional when the pump is oprating over 45 years so there is high risk of failure over this operating period.
+The majority of pumps states is non functional when the pump is operating over 45 years so there is high risk of failure over this operating period.
 
 <p align = "center"> 
   <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/pumps_states_vs_management.png">
