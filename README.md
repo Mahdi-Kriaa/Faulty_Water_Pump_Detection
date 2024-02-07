@@ -146,16 +146,15 @@ We note that neural netwoks models were not preferred as we are dealing with str
 As the non-functional state is the more critical one, we chose the f1 score for this class as an evaluation metric. this score is choosen to assess precision (we must avoid false positives because it will generate an unnecessary maintenance costs) and recall (we want to predict all states of pump failure).
 The following are the "non functional" class f1 scores for each model with default tuning, for the testing set:
 
-    - K Nearest Neighbors: 0.73 
-    - Desicision Tree: 0.72
-    - Random Forest: 0.77
-    - AdaBoost: 0.62
-    - XGBoost: 0.74
-    - Stacking: 0.75
+    - K Nearest Neighbors: 0.76 
+    - Desicision Tree: 0.75
+    - Random Forest: 0.80
+    - AdaBoost: 0.68
+    - XGBoost: 0.79
+    - Stacking: 0.79
     
 The Final model chosen was a tuned XGBoost classifier with a precision, recall and f1 scores on testing set equal to 0.80, 0.75 and 0.77 respectively. Althought this model has the same score as the default tuned random forest classifier, it has a better score by cross validation meaning it is more generalized model
 
 ## Recommendations
 
-- When the type of the water pump is "other" then the risk of failure is high. so this type must be dealt with. 
 - The model has a good performance on detecting states of non functionality, but it is weak face to states where the water pump is functional but needs repair so using it to detect these states is not reliable.
