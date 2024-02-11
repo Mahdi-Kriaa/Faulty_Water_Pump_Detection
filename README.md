@@ -158,3 +158,7 @@ The Final model chosen was a tuned XGBoost classifier with a precision, recall a
 ## Recommendations
 
 The model has a good performance on detecting states of non functionality, but it is weak face to states where the water pump is functional but needs repair so using it to detect these states is not reliable.
+
+## Limitations & Next Steps
+
+The model has bad performance for detecting states where pump is functional but needs repair so more samples for this state must be provided to deal with this. Also adding the historical states to features could improve the overall performance of the model.
