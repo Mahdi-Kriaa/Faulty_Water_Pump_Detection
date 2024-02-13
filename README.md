@@ -153,7 +153,7 @@ The following are the "non functional" class f1 scores for each model with defau
     - XGBoost: 0.79
     - Stacking: 0.79
     
-The Final model chosen was a tuned XGBoost classifier with a precision, recall and f1 scores on testing set equal to 0.82, 0.77 and 0.80 respectively. Althought this model has the same score as the default tuned random forest classifier, it has a better score for the cross validation meaning it is more generalized model
+The Final model chosen was a tuned XGBoost classifier with a precision, recall and f1 scores on testing set equal to 0.82, 0.77 and 0.80 respectively. Althought this model has the same score as the default tuned random forest classifier, it has a better score for the cross validation meaning it is more generalized model.
 
 ## Recommendations
 
