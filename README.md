@@ -139,7 +139,7 @@ Models used in this project are the following :
     - XGBoost
     - Stacking
     
-We note that neural netwoks models were not preferred as we are dealing with structred data.
+We note that neural networks models were not preferred as we are dealing with structred data.
 
 ### Models Evaluation & Results
 
