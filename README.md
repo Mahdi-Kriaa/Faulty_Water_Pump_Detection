@@ -7,7 +7,7 @@ This project aims to leverage machine learning techniques to predict the operati
 ## Data Description
 
 ### Overview
-The dataset contains records for diffrent times that contains the pump characteristics such as location and management type and constructio year, and its status.
+The dataset contains records from different times, each detailing the characteristics of the pump such as its location, management type and construction year and the current state.
 This dataset contains 59400 rows and 41 columns including the target variable.
 
 ### Data Source
