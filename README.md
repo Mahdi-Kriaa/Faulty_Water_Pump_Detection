@@ -9,6 +9,7 @@ This project aims to leverage machine learning techniques to predict the operati
 ### Data Overview
 The dataset contains records from different times, each detailing the characteristics of the pump such as its location, management type and construction year and the current state. The data comes from Kaggle and it is originally comes from the Taarifa waterpoints dashboard, which aggregates data from the Tanzania Ministry of Water.
 This dataset contains 59400 rows and 41 columns including the target variable.
+
 Link to dataset : https://www.kaggle.com/datasets/sumeetsawant/pump-it-up-challenge-driven-data?select=training_Set_values.csv
 https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view
 
