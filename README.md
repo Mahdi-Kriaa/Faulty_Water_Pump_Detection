@@ -110,7 +110,7 @@ The exploratory visuals include the following plots:
     - a contingency matrix for some categorical columns
     
 <p align = "center"> 
-  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/pumps_states_histogram.png">
+  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/images/pumps_states_histogram.png">
 </p>
 
 This histogram shows that the "fonctional needs repair" state is the minority one and the "non functional" state represente a significante part of the dataset.
@@ -118,13 +118,13 @@ This histogram shows that the "fonctional needs repair" state is the minority on
 ### Explanatory Visuals
 
 <p align = "center"> 
-  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/pumps_sates_over_45.png">
+  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/images/pumps_sates_over_45.png">
 </p>
 
 The majority of pumps states is non functional when the pump is operating over 45 years so there is high risk of failure over this operating period.
 
 <p align = "center"> 
-  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/Images/pumps_states_vs_management.png">
+  <img src = "https://github.com/Mahdi-Kriaa/faulty_water_pumps_predicton/blob/main/images/pumps_states_vs_management.png">
 </p>
 
 The majority of non functional states are vwc managed. So it's most likely that there is a problem with this type of management.
