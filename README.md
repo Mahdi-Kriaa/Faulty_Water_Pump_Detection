@@ -1,4 +1,4 @@
-# Faulty Water Pumps Prediction
+# Faulty Water Pumps Detection
 
 ## Objective
 
